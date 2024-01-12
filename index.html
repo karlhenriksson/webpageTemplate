@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webpage template</title>
-</head>
-<body>
-  <div class="full-width-div" id="main-image-gradient">
-    <!-- Temporary until there is a main image to put here -->
-    <p style="text-align: center; height: 200px; margin-top: 150px; font-size: xx-large;">[Stor fancy bild]</p>
-  </div>
-  <div class="sticky-header" id="mainHeader">
-      <!-- Temporary until logo is acquired -->
-      <p class="logo", style="margin: 0px; height: 100%; background-color: gray;">[Logga]</p>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage template</title>
+  </head>
+  <body>
+    <div class="main-image" style="height: 400px" id="main-image-gradient">
+      <p class="image-overlay-text" style="font-size: 72px">
+        <em>Karls Dåliga Webbsidor</em>
+      </p>
+      <p class="image-overlay-text">Finns för dig sedan 2024-01-12</p>
+    </div>
+    <div class="sticky-header" id="mainHeader">
+      <img class="logo" src="Images/logo.png" alt="Logga" />
       <div class="nav-options-holder">
         <a href="" class="nav-option">Navigera</a>
         <a href="" class="nav-option">Tjänster</a>
         <a href="" class="nav-option">Varor</a>
         <a href="" class="nav-option">Kundkontakt</a>
       </div>
-  </div>
-  <div class="full-width-div">
-    <h1>Om oss</h1>
-    <p>
-      Karl har lekt med programmering sedan han var mycket liten, och har tyckt att det var kul och intressant. Han har totalt ett halvårs erfarenhet av JavaScript (tbf har han dock lekt med Processing, vilket typ är samma sak), och ingen officiell kontakt med webbdesign alls. Detta är en webbsida som han designade efter att ha tillbringat typ en halvtimme med att läsa webbdesignsguider på nätet.
-      <br><br>
-      Sidan har en header som följer med en när man scrollar, och... ja, det är väl typ det. Man kan lägga till vad man vill innan och efter headern, och i princip skulle man väl kunna ha flera headers om man ville det. Det finns också halv support för knappar/notiser på sidan av skärmen som följer med när man scrollar. Just nu ser den lite underlig ut på mobil av någon anledning, det har jag inte hunnit kolla på än
-      <br><br>
-      (PS: alla färger här är ganska förfärliga. Men de är lätta att ändra, så det gör inget! Det är mest layouten jag vill visa)
-    </p>
-    <p style="height: 1000px">
-      (Här har jag lämnat en massa extra plats, så man kan scrolla och testa headern och footern)
-    </p>
-  </div>
-  <div class="footer">
-    <a href="" class="nav-option">Till toppen</a>
-    <a href="" class="nav-option">Tjänster</a>
-    <a href="" class="nav-option">Varor</a>
-    <a href="" class="nav-option">Kundkontakt</a>
-    <br/>
-    <!-- Temporary until logo is acquired -->
-    <p class="logo", style="margin: 0px; width:80px; background-color: gray;">[Logga]</p>
-  </div>
-</body>
+    </div>
+    <div class="full-width-div">
+      <h1>Om sidan</h1>
+      <p>
+        Detta är en liten testwebbsida som visar roligheter man kan göra med
+        HTML och CSS. Den har en header som följer med skärmen när man scrollar,
+        och det finns viss support för typ notiser som också stannar i övre
+        kant. Man kan lägga vad man vill över och under headern, här har jag
+        bild över och text under.
+        <br />
+        <br />
+        Alla färger och mått (och bilder/text såkart) kan ändras. Att ändra
+        layouten tar mer tid, men är också fullt möjligt.
+      </p>
+      <h1>Extra scrollplats</h1>
+      <p style="height: 1000px">
+        (Här har jag lämnat en massa extra plats, så man kan scrolla för att
+        testa headern och footern)
+      </p>
+    </div>
+    <div class="footer">
+      <a href="" class="nav-option">Till toppen</a>
+      <a href="" class="nav-option">Tjänster</a>
+      <a href="" class="nav-option">Varor</a>
+      <a href="" class="nav-option">Kundkontakt</a>
+      <br />
+      <img class="logo" src="Images/logo.png" alt="Logga" />
+    </div>
+  </body>
 </html>
