@@ -8,13 +8,13 @@
     <title>Webpage template</title>
   </head>
   <body>
-    <div class="main-image" style="height: 400px" id="main-image-gradient">
-      <p class="image-overlay" style="font-size: 72px">
+    <div class="main-image" style="height: 600px" id="main-image-gradient">
+      <p class="image-overlay" style="font-size: 64px">
         <em>Karls Dåliga Webbsidor</em>
       </p>
       <p class="image-overlay">Finns för dig sedan 2024-01-12</p>
       <br />
-      <div>
+      <div style="display: flex; flex-wrap: wrap; align-content: center; justify-content: center;">
         <button class="cta-button primary-colors">Testknapp</button>
         <button class="cta-button secondary-colors">Testknapp 2</button>
       </div>
@@ -43,6 +43,46 @@
         Alla färger och mått (och bilder, text och småsaker såkart) kan ändras.
         Att ändra layouten tar mer tid, men är också fullt möjligt.
       </p>
+      <h1>Exempel på cards</h1>
+      <p>
+        Kan användas för att till exempel ställa upp olika alternativ bredvid varandra. De kan staplas både vertikalt och horisontellt och kan innehålla vad som helst:
+      </p>
+      <div class="card-holder">
+        <div class="card example-card">
+          <h2 class="centered">Kort 1</h2>
+          <p class="centered">
+            Pris: 299:-/dag i tre dagar
+            <br />
+            sedan 599:-/dag
+            <br />
+          </p>
+        </div>
+        <div class="card example-card">
+          <h2 class="centered">Kort 2</h2>
+          <p class="centered">
+            Pris: 1499:-/dag i tre dagar
+            <br />
+            sedan 1999:-/dag
+            <br />
+            <br />
+            Boende och frukost ingår.
+          </p>
+          <div class="card-sticker">
+            <p class="centered">Populärt val!</p>
+          </div>
+        </div>
+        <div class="card example-card">
+          <h2 class="centered">Kort 3</h2>
+          <p class="centered">
+            Pris: 2199:-/dag i tre dagar
+            <br />
+            sedan 2499:-/dag
+            <br />
+            <br />
+            Boende, mat och bilpool ingår.
+          </p>
+        </div>
+      </div>
       <h1>Extra scrollplats</h1>
       <div style="height: 1000px">
         <p>
