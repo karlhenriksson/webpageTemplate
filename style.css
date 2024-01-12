@@ -2,21 +2,22 @@
 /* Header DIV */
 .sticky-header {
   position: sticky;
-  top: 0px;
+  top: -5px;  /* To remove pixel flickering on phones */
+  padding: 5px;
   height: 80px;
-  background-color: blue;
+  background-color: black;
   display: flex;
 }
 
 /* Main image gradient (https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/) */
 #main-image-gradient {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 80%, blue 100%);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 80%, black 100%);
   margin:0px;
 }
 
 /* End of page stuff */
 .footer {
-  background-color: blue;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +35,8 @@
   aspect-ratio: 1;
   max-width: 100px;
   min-width: 50px;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 /* Positioning the navigation options nicely on the header */
