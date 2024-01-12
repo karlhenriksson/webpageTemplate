@@ -1,10 +1,8 @@
 /* Special class for the logo so that it can be put anywhere */
 .logo {
-  max-width: 100px;
-  min-width: 50px;
+  aspect-ratio: 1;
+  height: 70px;
   margin: 5px;
-  display: flex;
-  align-items: center;
 }
 
 /* ABOVE HEADER */
@@ -23,6 +21,7 @@
 }
 
 .cta-button {
+  margin: 10px;
   font-size: 20px;
   width: 150px;
   height: 60px;
@@ -91,9 +90,14 @@
 .footer {
   background-color: black;
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 10px;
+  margin-top: auto;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
 }
 
 /* BASE MODIFICATIONS */
@@ -104,6 +108,9 @@ body {
   margin: 0px;
   background-color: whitesmoke;
   overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Making the paragraphs slightly more legible */
@@ -112,6 +119,7 @@ p {
   margin: 0 10%;
 }
 
+/* Focused headers */
 h1 {
   text-align: center;
   margin-top: 80px;
