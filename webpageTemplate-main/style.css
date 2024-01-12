@@ -1,0 +1,97 @@
+
+
+/* Special class for the logo so that it can be put anywhere */
+.logo {
+  max-width: 100px;
+  min-width: 50px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* ABOVE HEADER */
+
+.main-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-overlay-text {
+  color: whitesmoke;
+  font-size: 36px;
+}
+
+/* HEADER */
+
+/* Header DIV */
+.sticky-header {
+  position: sticky;
+  top: -5px;  /* To remove pixel flickering on phones */
+  padding-top: 5px;
+  height: 80px;
+  background-color: black;
+  display: flex;
+}
+
+/* Main image gradient (https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/) */
+#main-image-gradient {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 60%, black 100%), url(Images/image.png);
+  background-size: cover;
+  margin: 0px;
+}
+
+/* Positioning the navigation options nicely on the header */
+.nav-options-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+/* Options for navigating */
+.nav-option {
+  padding: 0px 10px;
+  color: lightgray;
+}
+
+/* BELOW HEADER */
+
+/* DIVs inside the "main flow" */
+.full-width-div {
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+/* FOOTER */
+
+/* End of page stuff */
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+/* BASE MODIFICATIONS */
+
+/* Removing the annoying margin from the body (causing trouble for mobile???) 
+Also adding off-white background */
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+/* Making the paragraphs slightly more legible */
+p {
+  font-size: large;
+  margin: 0 10%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
