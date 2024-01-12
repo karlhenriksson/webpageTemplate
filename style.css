@@ -3,7 +3,7 @@
 .sticky-header {
   position: sticky;
   top: -5px;  /* To remove pixel flickering on phones */
-  padding: 5px;
+  padding-top: 5px;
   height: 80px;
   background-color: black;
   display: flex;
